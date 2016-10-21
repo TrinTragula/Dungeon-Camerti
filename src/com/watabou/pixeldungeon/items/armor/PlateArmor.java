@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class PlateArmor extends Armor {
 
 	{
-		name = "plate armor";
+		name = "un'armatura di bruttezza";
 		image = ItemSpriteSheet.ARMOR_PLATE;
 	}
 	
@@ -34,7 +34,7 @@ public class PlateArmor extends Armor {
 	@Override
 	public String desc() {
 		return 
-			"Enormous plates of metal are joined together into a suit that provides " +
-			"unmatched protection to any adventurer strong enough to bear its staggering weight.";
+			"Sei brutto. Nessuno vuole toccarti." +
+			"Prendi meno danni perche' gli fai un pochino schifo.";
 	}
 }

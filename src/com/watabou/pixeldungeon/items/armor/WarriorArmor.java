@@ -45,10 +45,10 @@ public class WarriorArmor extends ClassArmor {
 	
 	private static final String AC_SPECIAL = "HEROIC LEAP"; 
 	
-	private static final String TXT_NOT_WARRIOR	= "Only warriors can use this armor!";
+	private static final String TXT_NOT_WARRIOR	= "Solo gli sperimentali possono usare sandali!";
 	
 	{
-		name = "warrior suit of armor";
+		name = "dei sandali";
 		image = ItemSpriteSheet.ARMOR_WARRIOR;
 	}
 	
@@ -75,8 +75,8 @@ public class WarriorArmor extends ClassArmor {
 	@Override
 	public String desc() {
 		return
-			"While this armor looks heavy, it allows a warrior to perform heroic leap towards " +
-			"a targeted location, slamming down to stun all neighbouring enemies.";
+			"Come il buon GDG, portare sandali ti permette di fare cose stupende. " +
+			"Come interdire chi incontri e fare bei salti in giro..";
 	}
 	
 	protected static CellSelector.Listener leaper = new  CellSelector.Listener() {
@@ -124,7 +124,7 @@ public class WarriorArmor extends ClassArmor {
 		
 		@Override
 		public String prompt() {
-			return "Choose direction to leap";
+			return "Scegli dove saltare:";
 		}
 	};
 }

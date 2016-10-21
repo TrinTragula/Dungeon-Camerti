@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class ClothArmor extends Armor {
 
 	{	
-		name = "cloth armor";
+		name = "Una felpa di Martino";
 		image = ItemSpriteSheet.ARMOR_CLOTH;
 	}
 	
@@ -33,6 +33,6 @@ public class ClothArmor extends Armor {
 	
 	@Override
 	public String desc() {
-		return "This lightweight armor offers basic protection.";
+		return "Una delle tre felpe blu di Martino. Quella blu, in teoria.";
 	}
 }

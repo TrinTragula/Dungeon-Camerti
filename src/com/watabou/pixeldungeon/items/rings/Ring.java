@@ -43,7 +43,7 @@ public class Ring extends EquipableItem {
 	private static final float TIME_TO_EQUIP = 1f;
 	
 	private static final String TXT_IDENTIFY = 
-		"you are now familiar enough with your %s to identify it. It is %s.";
+		"sei abbastanza assuefatto da %s da identificarlo. Si tratta di %s.";
 	
 	private static final String TXT_UNEQUIP_TITLE = "Sputa uno psicofarmaco";
 	private static final String TXT_UNEQUIP_MESSAGE = 

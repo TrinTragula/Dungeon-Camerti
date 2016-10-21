@@ -37,13 +37,13 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public class RogueArmor extends ClassArmor {
 	
-	private static final String TXT_FOV 		= "You can only jump to an empty location in your field of view";
-	private static final String TXT_NOT_ROGUE	= "Only rogues can use this armor!";
+	private static final String TXT_FOV 		= "Puoi solo teletrasportarti quanticamente dove vedi";
+	private static final String TXT_NOT_ROGUE	= "Solo Pietro puo' usare questo congegno!";
 	
 	private static final String AC_SPECIAL = "SMOKE BOMB"; 
 	
 	{
-		name = "rogue garb";
+		name = "i segrete del teletraporto quantico";
 		image = ItemSpriteSheet.ARMOR_ROGUE;
 	}
 	
@@ -70,8 +70,8 @@ public class RogueArmor extends ClassArmor {
 	@Override
 	public String desc() {
 		return 
-			"Wearing this dark garb, a rogue can perform a trick, that is called \"smoke bomb\" " +
-			"(though no real explosives are used): he blinds enemies who could see him and jumps aside.";
+			"Puoi usare \"smoke bomb\" " +
+			"(che non e' una smoke bomb, ma teletrasporto quantico. Ma vagli a spiegare cos'e', quindi SMOKE BOMB!)";
 	}
 	
 	protected static CellSelector.Listener teleporter = new  CellSelector.Listener() {
@@ -110,7 +110,7 @@ public class RogueArmor extends ClassArmor {
 		
 		@Override
 		public String prompt() {
-			return "Choose a location to jump to";
+			return "Scegli dove teletrasportarti quanticamente:";
 		}
 	};
 }

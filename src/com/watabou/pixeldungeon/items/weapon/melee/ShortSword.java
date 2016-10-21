@@ -47,7 +47,7 @@ public class ShortSword extends MeleeWeapon {
 	private boolean  equipped;
 	
 	{
-		name = "short sword";
+		name = "un lungo pene di gomma";
 		image = ItemSpriteSheet.SHORT_SWORD;
 	}
 	
@@ -97,7 +97,7 @@ public class ShortSword extends MeleeWeapon {
 	@Override
 	public String desc() {
 		return 
-			"It is indeed quite short, just a few inches longer, than a dagger.";
+			"Bello lungo e onduleggiante. Sbattendolo forte fa un suono tipo ciaf ciaf";
 	}
 	
 	private final WndBag.Listener itemSelector = new WndBag.Listener() {

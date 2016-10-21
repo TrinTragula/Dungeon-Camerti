@@ -33,13 +33,13 @@ import com.watabou.utils.Callback;
 
 public class HuntressArmor extends ClassArmor {
 	
-	private static final String TXT_NO_ENEMIES 		= "No enemies in sight";
-	private static final String TXT_NOT_HUNTRESS	= "Only huntresses can use this armor!";
+	private static final String TXT_NO_ENEMIES 		= "Gli occhi da elfo non vedono nulla.";
+	private static final String TXT_NOT_HUNTRESS	= "Solo Parroni puo' usare questa folta chioma!";
 	
 	private static final String AC_SPECIAL = "SPECTRAL BLADES"; 
 	
 	{
-		name = "huntress cloak";
+		name = "Folta chioma di Parroni";
 		image = ItemSpriteSheet.ARMOR_HUNTRESS;
 	}
 	

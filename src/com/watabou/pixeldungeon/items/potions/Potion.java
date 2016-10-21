@@ -39,7 +39,7 @@ import com.watabou.utils.Bundle;
 
 public class Potion extends Item {
 	
-	public static final String AC_DRINK	= "DRINK";
+	public static final String AC_DRINK	= "BEVI";
 	
 	private static final String TXT_HARMFUL		= "Harmful potion!";
 	private static final String TXT_BENEFICIAL	= "Beneficial potion";

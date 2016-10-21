@@ -32,9 +32,9 @@ import com.watabou.utils.Bundle;
 
 public abstract class Scroll extends Item {
 
-	private static final String TXT_BLINDED	= "You can't read a scroll while blinded";
+	private static final String TXT_BLINDED	= "Non puoi leggere quando sei cieco, ce'";
 	
-	public static final String AC_READ	= "READ";
+	public static final String AC_READ	= "STUDIA";
 	
 	protected static final float TIME_TO_READ	= 1f;
 	
@@ -53,7 +53,7 @@ public abstract class Scroll extends Item {
 		ScrollOfEnchantment.class
 	};
 	private static final String[] runes = 
-		{"KAUNAN", "SOWILO", "LAGUZ", "YNGVI", "GYFU", "RAIDO", "ISAZ", "MANNAZ", "NAUDIZ", "BERKANAN", "ODAL", "TIWAZ"};
+		{"SIMONUCCI", "SERAFINI", "PIETRELLA", "PEDICONI", "GIANFELICI", "SALTARELLI", "FROCIOCHILEGGE", "QUANTESONOBASTAINVENTARENOMI", "ROVAZZI", "FEDEZ", "GDG", "CAVALLO"};
 	private static final Integer[] images = {
 		ItemSpriteSheet.SCROLL_KAUNAN, 
 		ItemSpriteSheet.SCROLL_SOWILO, 
@@ -151,15 +151,15 @@ public abstract class Scroll extends Item {
 	
 	@Override
 	public String name() {
-		return isKnown() ? name : "scroll \"" + rune + "\"";
+		return isKnown() ? name : "libro \"" + rune + "\"";
 	}
 	
 	@Override
 	public String info() {
 		return isKnown() ?
 			desc() :
-			"This parchment is covered with indecipherable writing, and bears a title " +
-			"of rune " + rune + ". Who knows what it will do when read aloud?";
+			"Questo libro e' in pdf, ma e' danneggiato. " +
+			"Apparteneva a " + rune + ". Che fara' se lo convertirai a djvu e lo studierai?";
 	}
 	
 	@Override

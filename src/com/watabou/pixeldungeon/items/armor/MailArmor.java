@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class MailArmor extends Armor {
 
 	{
-		name = "mail armor";
+		name = "un'armatura di Giamo Serafini";
 		image = ItemSpriteSheet.ARMOR_MAIL;
 	}
 	
@@ -34,6 +34,6 @@ public class MailArmor extends Armor {
 	@Override
 	public String desc() {
 		return 
-			"Interlocking metal links make for a tough but flexible suit of armor.";
+			"Nel senso, non e' di Giacomo. E' fatta di Giacomo. Tipo ti sta aggrovigliato e si prende le botte.";
 	}
 }

@@ -36,10 +36,10 @@ public class MageArmor extends ClassArmor {
 	
 	private static final String AC_SPECIAL = "MOLTEN EARTH"; 
 	
-	private static final String TXT_NOT_MAGE	= "Only mages can use this armor!";
+	private static final String TXT_NOT_MAGE	= "Solo i teorici possono girare col santino di Stizza!";
 	
 	{
-		name = "mage robe";
+		name = "un santino di Stizza";
 		image = ItemSpriteSheet.ARMOR_MAGE;
 	}
 	
@@ -51,8 +51,8 @@ public class MageArmor extends ClassArmor {
 	@Override
 	public String desc() {
 		return
-			"Wearing this gorgeous robe, a mage can cast a spell of molten earth: all the enemies " +
-			"in his field of view will be set on fire and unable to move at the same time.";
+			"Un'immagine rappresentante Stizza a pugno alzato che sottomette matricole " +
+			"inpreparate sorprese ad uscire una sera. Fornisce protezione dalle insidie della vita sociale.";
 	}
 	
 	@Override
